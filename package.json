@@ -1,5 +1,5 @@
 {
-  "name": "samtools",
+  "name": "node-samtools",
   "description": "npm package for installing samtools",
   "version": "0.0.1",
   "homepage": "http://github.com/chmille4/node-samtools",
