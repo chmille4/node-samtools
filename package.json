@@ -1,0 +1,24 @@
+{
+  "name": "samtools",
+  "description": "npm package for installing samtools",
+  "version": "0.1.19",
+  "homepage": "http://github.com/chmille4/node-samtools",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chmille4/node-samtools.git"
+  },
+  "author": {
+    "name": "Chase Miller",
+    "email": "chmille4@gmail.com"
+  },
+  "keywords": [
+    "samtools"
+  ],
+  "bin": {
+    "samtools": "sam/samtools/samtools"
+  },
+  "scripts": {
+    "preinstall": "sam/build.sh"
+  },
+  "license": "MIT"
+}
